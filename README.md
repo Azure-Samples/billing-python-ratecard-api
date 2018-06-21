@@ -19,7 +19,7 @@ Below is the list of all of the available Azure Billing API code samples:
 -	[billing-dotnet-webapp-multitenant](https://github.com/Azure-Samples/billing-dotnet-webapp-multitenant/) - This Multi-Tenant sample creates a WebApp that allows the signed-in user to give it consent, to call the Azure Graph API and the Usage API on the user's behalf. It also shows the OAuth flows required to get consent for the ‘Reader’ role, to access the list of Microsoft Azure subscriptions that the user wants to allow access to. 
 
 ## High level design
-![image](https://user-images.githubusercontent.com/4275488/40528874-3e052bc8-5fa7-11e8-8f29-17b9e928f6e8.png)
+![image](https://user-images.githubusercontent.com/4275488/41744261-1ae11bb8-7558-11e8-8c86-de75c716604f.png)
 
 ## How To Run This Sample
 To run this sample you will need:
@@ -30,7 +30,7 @@ To run this sample you will need:
 
 You will also need to be comfortable with the following tasks:
 
-- Using the [Azure portal](https://manage.windowsazure.com) (or working with your administrator) to do configuration work 
+- Using the [Azure portal](https://portal.azure.com) (or working with your administrator) to do configuration work 
 - Using Git and Github to bring the sample code down to your local machine
 - Using Python to run the sample
 
@@ -41,7 +41,7 @@ Before you can run the sample application, you will need to allow it to access y
 
 To configure a new AAD application:
 
-1. Sign in to the [Azure portal](http://manage.windowsazure.com), using credentials that have been granted service administrator/co-administrator access on the subscription which is trusting your AAD tenant, and granted Global Administrator access in the AAD tenant. See [Manage Accounts, Subscriptions, and Administrative Roles](https://msdn.microsoft.com/library/azure/hh531793.aspx) for details on managing the service administrator and co-administrators.
+1. Sign in to the [Azure portal](https://portal.azure.com), using credentials that have been granted service administrator/co-administrator access on the subscription which is trusting your AAD tenant, and granted Global Administrator access in the AAD tenant. See [Manage Accounts, Subscriptions, and Administrative Roles](https://msdn.microsoft.com/library/azure/hh531793.aspx) for details on managing the service administrator and co-administrators.
 2. Select the AAD tenant you wish to use, and go to the "Applications" page.
 3. From there, you can use the "Add" feature to "Add a new application my organization is developing".
 4. Provide a name (ie: ConsoleApp-Billing-RateCard or similar) for the new application.
